@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA008BBD23A56E8200525AA7 /* ADDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA008BBC23A56E8200525AA7 /* ADDViewController.m */; };
+		BA008BC023A56F4C00525AA7 /* TodoItemClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA008BBF23A56F4C00525AA7 /* TodoItemClass.m */; };
+		BA08535223B158A40013DD81 /* ProgressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA08535123B158A40013DD81 /* ProgressTableViewController.m */; };
+		BA08535523B15C1E0013DD81 /* DoneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA08535423B15C1E0013DD81 /* DoneTableViewController.m */; };
 		BA17EDA623A5001500FBADAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EDA523A5001500FBADAC /* AppDelegate.m */; };
 		BA17EDA923A5001500FBADAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EDA823A5001500FBADAC /* ViewController.m */; };
 		BA17EDAC23A5001500FBADAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA17EDAA23A5001500FBADAC /* Main.storyboard */; };
 		BA17EDAE23A5002800FBADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA17EDAD23A5002800FBADAC /* Assets.xcassets */; };
 		BA17EDB123A5002800FBADAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA17EDAF23A5002800FBADAC /* LaunchScreen.storyboard */; };
 		BA17EDB423A5002800FBADAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EDB323A5002800FBADAC /* main.m */; };
+		BA17EDC323A5088700FBADAC /* ADDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EDC223A5088700FBADAC /* ADDTableViewController.m */; };
+		BA65848E23AFB94F000FA5C0 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65848D23AFB94F000FA5C0 /* PresentViewController.m */; };
+		BA65849123AFD5B4000FA5C0 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA65849023AFD5B4000FA5C0 /* EditViewController.m */; };
+		BAFBDE6523B2A23F002C10D7 /* PiriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFBDE6423B2A23F002C10D7 /* PiriorityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA008BBB23A56E8200525AA7 /* ADDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADDViewController.h; sourceTree = "<group>"; };
+		BA008BBC23A56E8200525AA7 /* ADDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADDViewController.m; sourceTree = "<group>"; };
+		BA008BBE23A56F4C00525AA7 /* TodoItemClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoItemClass.h; sourceTree = "<group>"; };
+		BA008BBF23A56F4C00525AA7 /* TodoItemClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoItemClass.m; sourceTree = "<group>"; };
+		BA08535023B158A40013DD81 /* ProgressTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressTableViewController.h; sourceTree = "<group>"; };
+		BA08535123B158A40013DD81 /* ProgressTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewController.m; sourceTree = "<group>"; };
+		BA08535323B15C1E0013DD81 /* DoneTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneTableViewController.h; sourceTree = "<group>"; };
+		BA08535423B15C1E0013DD81 /* DoneTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneTableViewController.m; sourceTree = "<group>"; };
 		BA17EDA123A5001500FBADAC /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA17EDA423A5001500FBADAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA17EDA523A5001500FBADAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +42,15 @@
 		BA17EDB023A5002800FBADAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA17EDB223A5002800FBADAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA17EDB323A5002800FBADAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA17EDC123A5088700FBADAC /* ADDTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADDTableViewController.h; sourceTree = "<group>"; };
+		BA17EDC223A5088700FBADAC /* ADDTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADDTableViewController.m; sourceTree = "<group>"; };
+		BA65848C23AFB94F000FA5C0 /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		BA65848D23AFB94F000FA5C0 /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		BA65848F23AFD5B4000FA5C0 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		BA65849023AFD5B4000FA5C0 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		BAB82B4C23A59C56008C3947 /* myProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myProtocol.h; sourceTree = "<group>"; };
+		BAFBDE6323B2A23F002C10D7 /* PiriorityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiriorityViewController.h; sourceTree = "<group>"; };
+		BAFBDE6423B2A23F002C10D7 /* PiriorityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiriorityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +83,58 @@
 		BA17EDA323A5001500FBADAC /* todoList */ = {
 			isa = PBXGroup;
 			children = (
+				BA4024EE23B3E8A6006F745C /* Model */,
+				BA4024ED23B3E89D006F745C /* View */,
+				BA17EDC023A5085500FBADAC /* Controller */,
 				BA17EDA423A5001500FBADAC /* AppDelegate.h */,
 				BA17EDA523A5001500FBADAC /* AppDelegate.m */,
-				BA17EDA723A5001500FBADAC /* ViewController.h */,
-				BA17EDA823A5001500FBADAC /* ViewController.m */,
-				BA17EDAA23A5001500FBADAC /* Main.storyboard */,
 				BA17EDAD23A5002800FBADAC /* Assets.xcassets */,
 				BA17EDAF23A5002800FBADAC /* LaunchScreen.storyboard */,
 				BA17EDB223A5002800FBADAC /* Info.plist */,
 				BA17EDB323A5002800FBADAC /* main.m */,
 			);
 			path = todoList;
+			sourceTree = "<group>";
+		};
+		BA17EDC023A5085500FBADAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA17EDC123A5088700FBADAC /* ADDTableViewController.h */,
+				BA17EDC223A5088700FBADAC /* ADDTableViewController.m */,
+				BA08535023B158A40013DD81 /* ProgressTableViewController.h */,
+				BA08535123B158A40013DD81 /* ProgressTableViewController.m */,
+				BA08535323B15C1E0013DD81 /* DoneTableViewController.h */,
+				BA08535423B15C1E0013DD81 /* DoneTableViewController.m */,
+				BAFBDE6323B2A23F002C10D7 /* PiriorityViewController.h */,
+				BAFBDE6423B2A23F002C10D7 /* PiriorityViewController.m */,
+				BA008BBB23A56E8200525AA7 /* ADDViewController.h */,
+				BA008BBC23A56E8200525AA7 /* ADDViewController.m */,
+				BA65848F23AFD5B4000FA5C0 /* EditViewController.h */,
+				BA65849023AFD5B4000FA5C0 /* EditViewController.m */,
+				BA65848C23AFB94F000FA5C0 /* PresentViewController.h */,
+				BA65848D23AFB94F000FA5C0 /* PresentViewController.m */,
+				BA17EDA723A5001500FBADAC /* ViewController.h */,
+				BA17EDA823A5001500FBADAC /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA4024ED23B3E89D006F745C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA17EDAA23A5001500FBADAC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA4024EE23B3E8A6006F745C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA008BBE23A56F4C00525AA7 /* TodoItemClass.h */,
+				BA008BBF23A56F4C00525AA7 /* TodoItemClass.m */,
+				BAB82B4C23A59C56008C3947 /* myProtocol.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFBDE6523B2A23F002C10D7 /* PiriorityViewController.m in Sources */,
 				BA17EDA923A5001500FBADAC /* ViewController.m in Sources */,
+				BA008BC023A56F4C00525AA7 /* TodoItemClass.m in Sources */,
+				BA008BBD23A56E8200525AA7 /* ADDViewController.m in Sources */,
 				BA17EDB423A5002800FBADAC /* main.m in Sources */,
+				BA08535223B158A40013DD81 /* ProgressTableViewController.m in Sources */,
+				BA65849123AFD5B4000FA5C0 /* EditViewController.m in Sources */,
+				BA65848E23AFB94F000FA5C0 /* PresentViewController.m in Sources */,
+				BA08535523B15C1E0013DD81 /* DoneTableViewController.m in Sources */,
 				BA17EDA623A5001500FBADAC /* AppDelegate.m in Sources */,
+				BA17EDC323A5088700FBADAC /* ADDTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
